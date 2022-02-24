@@ -1,0 +1,74 @@
+:root {
+  --white-color: #fff;
+  --solid-color: #e6e6e6;
+  --primary-color: #ff6a00;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.grid {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.grid__full-width {
+  width: 100%;
+}
+.grid__container {
+  width: 1254px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.grid__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.grid__column-2 {
+  padding-left: 30px;
+  padding-right: 10px;
+  width: 16.6667%;
+}
+
+.grid__column-2-4 {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 25%;
+}
+
+.grid__column-10 {
+  padding-left: 10px;
+  padding-right: 30px;
+  width: 83.3334%;
+}
+
+.grid__column-12 {
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+}
+
+.btn-circle {
+  height: 28px;
+  width: 54px;
+  border-radius: 50px;
+  border: 1px solid gray;
+}
