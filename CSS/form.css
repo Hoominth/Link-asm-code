@@ -330,6 +330,9 @@ body {
   height: 30px;
   width: 100px;
   background-color: #ff7519;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 3px;
   margin-left: 3px;
 }
@@ -349,6 +352,9 @@ body {
 .btn-login {
   height: 30px;
   width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #ff7519;
   border-radius: 3px;
 }

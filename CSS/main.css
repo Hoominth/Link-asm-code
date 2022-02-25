@@ -994,14 +994,18 @@
 }
 
 .header__list-item-user {
-  display: flex;
-  text-align: left;
-  align-items: center;
   cursor: pointer;
+  display: flex;
+  align-items: center;
   position: relative;
 }
 
-.header__list-item-user > a {
+.header__list-item-user > .header__item-link-lin {
+  display: flex;
+  align-items: center;
+}
+
+.header__list-item-user > .header__item-link-lin > a {
   text-decoration: none;
   color: black;
 }
@@ -1721,16 +1725,18 @@
 
 .social__app-btn-store {
   background-color: #999999;
-  height: 29px;
-  width: 130px;
+  height: max-content;
   border-radius: 3px;
   border: none;
   outline: none;
+  display: flex;
+  align-items: center;
 }
 
 .social__app-btn-play {
-  height: 29px;
-  width: 130px;
+  display: flex;
+  align-items: center;
+  height: max-content;
   border-radius: 3px;
   border: none;
   outline: none;
